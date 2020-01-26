@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
+  background: orangered;
 }
 ::selection {
   background: rgb(248, 142, 3); /* WebKit/Blink Browsers */

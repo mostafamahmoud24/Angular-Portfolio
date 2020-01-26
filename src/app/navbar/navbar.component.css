@@ -28,7 +28,7 @@
 }
 .sticky {
   display: flex;
-  height: 40px;
+  height: 50px;
   justify-content: space-between;
   background-color: black;
   -webkit-transition: 0.4s ease-in;
@@ -49,7 +49,7 @@
     opacity: 0;
   }
   to {
-    margni-top: 0em;
+    margni-top: 2em;
     opacity: 1;
   }
 }
@@ -70,23 +70,23 @@
   to {
     padding-top: -1.5em;
     padding-bottom: 160px;
-
     opacity: 1;
   }
 }
 @keyframes navanim {
   from {
-    height: 80px;
+    height: 90px;
     background-color: transparent;
   }
   to {
-    height: 40px;
+    height: 50px;
     background-color: black;
+    opacity: 1;
   }
 }
 @keyframes navreverse {
   from {
-    height: 40px;
+    height: 50px;
     background-color: black;
     opacity: 1;
   }
@@ -96,56 +96,58 @@
 }
 @keyframes title {
   from {
-    margin-top: -0.2em;
+    margin-bottom: -1.5em;
   }
   to {
-    margin-top: -1em;
+    margin-bottom: -0.3em;
   }
 }
 @keyframes titlereverse {
   from {
-    margin-top: -1em;
+    margin-bottom: -0.3em;
   }
   to {
-    margin-top: -0.2em;
+    margin-bottom: -1.5em;
   }
 }
 @keyframes links {
   from {
-    margin-top: -0.2em;
+    margin-top: 2em;
   }
   to {
-    margin-top: -1em;
+    margin-top: 0.8em;
   }
 }
 @keyframes linksreverse {
   from {
-    margin-top: -1em;
+    margin-top: 0.8em;
   }
   to {
-    margin-top: -0.2em;
+    margin-top: 2em;
   }
 }
 
 .scroll-links {
-  padding-right: 3.5rem;
+  padding-right: 3.5em;
   /* background-color: green; */
   display: flex;
+  margin-top: 2em;
   animation-name: linksreverse;
   animation-duration: 0.8s;
+  margin-top: -0.2em;
 }
 
 .nav-links-container {
-  padding-right: 3.5rem;
+  padding-right: 3em;
   /* background-color: green; */
   display: flex;
+  margin-top: 2em;
 }
 
 .nav-links {
-  padding-left: 3rem;
+  padding-left: 3em;
   text-decoration: none;
   color: white;
-  margin-top: 2em;
   font-size: 0.85em;
 }
 
@@ -172,33 +174,36 @@
 .scroll-title {
   padding-left: 3rem;
   /* background-color: blue; */
-  margin-top: -0.2em;
+  margin-bottom: -1.5em;
   animation-name: titlereverse;
   animation-duration: 0.8s;
 }
+
 .nav-title-container {
   padding-left: 3rem;
   /* background-color: blue; */
-  margin-top: -0.2em;
+  margin-bottom: -1.5em;
 }
 
 .nav-title {
   color: white;
   font-size: 1.5em;
+  /* background-color: green; */
 }
 
 .sticky-title {
   padding-left: 3rem;
   /* background-color: blue; */
-  margin-top: -1em;
+  margin-bottom: -0.3em;
   animation-name: title;
   animation-duration: 0.8s;
 }
 
 .sticky-links {
-  margin-top: -1em;
+  margin-top: 0.8em;
   animation-name: links;
   animation-duration: 0.8s;
+  /* background-color: blue; */
 }
 
 .hero-container {
@@ -207,11 +212,11 @@
   /* margin-top: 18%; */
   text-align: center;
   color: white;
-  padding-top: 350px;
+  padding-top: 35vh;
 }
 
 .greeting {
-  font-size: 3.75rem;
+  font-size: 3.75em;
   letter-spacing: 4px;
   font-weight: 200;
   animation-name: titleanim;
@@ -223,8 +228,8 @@
 .greeting-subtext {
   font-family: "Roboto", sans-serif;
   font-weight: 200;
-  font-size: 1em;
-  margin-top: -1.5em;
+  font-size: 1rem;
+  margin-top: 1em;
   animation-name: subtitleanim;
   animation-duration: 1.2s;
   animation-timing-function: ease-in;
@@ -248,10 +253,210 @@
   font-size: 35px;
   -webkit-transition: 1.1s;
   transition: 1.1s;
+  transform: translate(0, 0);
 }
 
 .arrow-container {
   text-align: center;
 
   /* background-color: blue; */
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+
+  .arrow {
+    color: blue;
+    font-size: 35px;
+    text-align: center;
+    /* background-color: red; */
+    scroll-behavior: smooth;
+    animation-name: arrow;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+  }
+
+  .hero-container {
+    margin: auto;
+    /* background-color: black; */
+    /* margin-top: 18%; */
+    text-align: center;
+    color: white;
+    padding-top: 30%;
+  }
+  .nav-container {
+    /* The image used */
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+      url("../../assets/images/landscape.jpg");
+
+    /* Set a specific height */
+    height: 80vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .navbar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    /* background: transparent; */
+    position: -webkit-fixed; /* needed for ios*/
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  @keyframes titleanim {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes arrow {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes subtitleanim {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes navanim {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes navreverse {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes title {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes titlereverse {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes links {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes linksreverse {
+    from {
+    }
+    to {
+    }
+  }
+  .nav-title-container {
+    padding-left: 3rem;
+    /* background-color: blue; */
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+  }
+  .nav-links-container {
+    margin-top: 0.4em;
+    animation-name: links;
+    animation-duration: 0.8s;
+    /* background-color: blue; */
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
 }

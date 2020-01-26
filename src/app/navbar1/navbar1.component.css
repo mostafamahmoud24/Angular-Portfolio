@@ -1,0 +1,234 @@
+.navbar {
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+  height: auto;
+  animation-name: navbar-reverse;
+  animation-duration: 0.6s;
+}
+
+.scroll-navbar {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  height: 5.5vh;
+  animation-name: navbar;
+  animation-duration: 0.6s;
+  /* -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in; */
+}
+
+.navbar-title {
+  color: white;
+  margin-left: 2.5%;
+  margin-top: 0.6em;
+  padding-bottom: 0.6em;
+  animation-name: navbar-title-reverse;
+  animation-duration: 0.6s;
+}
+
+.scroll-navbar-title {
+  color: white;
+  /* background-color: blue; */
+  margin-left: 2.5%;
+  margin-top: 0em;
+  padding-bottom: 0.6em;
+  animation-name: navbar-title;
+  animation-duration: 0.6s;
+}
+
+.navbar-title p {
+  color: white;
+  margin: auto;
+  font-size: 24px;
+}
+
+.navbar-links {
+  font-size: 14px;
+  display: flex;
+  padding-top: 1.8em;
+  padding-bottom: 0.6em;
+  padding-right: 1.5rem;
+  animation-name: navbar-links-reverse;
+  animation-duration: 0.6s;
+}
+
+.scroll-navbar-links {
+  font-size: 14px;
+  /* background-color: red; */
+  display: flex;
+  padding-top: 0.5em;
+  padding-bottom: 0.6em;
+  padding-right: 1.5rem;
+  animation-name: navbar-links;
+  animation-duration: 0.6s;
+}
+
+.navbar-link {
+  color: white;
+  margin: auto;
+  padding-left: 2.4em;
+  text-decoration: none;
+  margin-bottom: -0.6em;
+}
+
+:hover.navbar-link {
+  color: gray;
+}
+
+:hover.navbar-link {
+  color: gray;
+}
+
+/*Navbar Animations*/
+@keyframes navbar {
+  from {
+    height: 8.35vh;
+    background: transparent;
+  }
+  to {
+    height: 5.5vh;
+    background: black;
+  }
+}
+@keyframes navbar-reverse {
+  from {
+    height: 5.5vh;
+    background: black;
+  }
+  to {
+    height: 8.35vh;
+    background: transparent;
+  }
+}
+@keyframes navbar-title {
+  from {
+    margin-top: 0.6em;
+  }
+  to {
+    margin-top: 0em;
+  }
+}
+@keyframes navbar-title-reverse {
+  from {
+    margin-top: 0em;
+  }
+  to {
+    margin-top: 0.6em;
+  }
+}
+@keyframes navbar-links {
+  from {
+    padding-top: 1.8em;
+  }
+  to {
+    padding-top: 0.5em;
+  }
+}
+@keyframes navbar-links-reverse {
+  from {
+    padding-top: 0.5em;
+  }
+  to {
+    padding-top: 1.8em;
+  }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+}
+/* For mobile desktop: */
+@media only screen and (min-width: 768px) {
+}
+/* For mobile phones: */
+@media only screen and (max-width: 767px) {
+  .scroll-navbar {
+    background-color: black;
+    display: block;
+    height: auto;
+  }
+  .navbar {
+    background-color: black;
+    display: block;
+  }
+
+  .navbar-title {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .navbar-title p {
+    /* background-color: blue; */
+    margin-left: 0%;
+    margin-top: 0.4em;
+  }
+
+  .navbar-linkss {
+    border-top: 1px gray solid;
+    font-size: 14px;
+    /* background-color: red; */
+    display: block;
+    padding-top: 1.8em;
+    padding-bottom: 0.6em;
+    padding-right: 1.5rem;
+  }
+
+  .navbar-link {
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding-left: 2.4em;
+    text-decoration: none;
+    margin-bottom: -0.6em;
+  }
+  .menu-icon {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  .menu-icon-container {
+    /* background-color: green; */
+    margin-top: 0.4em;
+  }
+  .hidden {
+    display: none;
+  }
+  @keyframes navbar {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes navbar-reverse {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes navbar-title {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes navbar-title-reverse {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes navbar-links {
+    from {
+    }
+    to {
+    }
+  }
+  @keyframes navbar-links-reverse {
+    from {
+    }
+    to {
+    }
+  }
+}

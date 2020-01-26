@@ -1,0 +1,24 @@
+.about-container {
+  position: inherit;
+  width: 67%;
+  margin: auto;
+  text-align: center;
+  padding-top: 5.5rem;
+}
+
+.about-title {
+  font-size: 1.9rem;
+  font-weight: 300;
+  word-spacing: 0em;
+}
+
+.about-img {
+  width: 173px;
+  border-radius: 50%;
+  padding-top: 0.5em;
+}
+
+.about-paragraph {
+  width: 100%;
+  margin: auto;
+}

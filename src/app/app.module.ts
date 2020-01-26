@@ -6,9 +6,16 @@ import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { NgxPageScrollModule } from "ngx-page-scroll";
+import { AboutComponent } from "./about/about.component";
+import { Navbar1Component } from "./navbar1/navbar1.component";
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    AboutComponent,
+    Navbar1Component
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

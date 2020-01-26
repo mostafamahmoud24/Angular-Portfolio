@@ -62,4 +62,13 @@ export class NavbarComponent implements OnInit {
 
     return (c / 2) * (-Math.pow(2, -10 * --t) + 2) + b;
   };
+
+  myFunction() {
+    var x = document.getElementById("navbar-links");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 }
