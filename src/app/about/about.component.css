@@ -4,10 +4,22 @@
   margin: auto;
   text-align: center;
   padding-top: 5.5rem;
+  opacity: 0;
+}
+
+.scroll-about-container {
+  position: inherit;
+  width: 67%;
+  margin: auto;
+  text-align: center;
+  padding-top: 5.5rem;
+  opacity: 1;
+  transition: 1s;
 }
 
 .about-title {
-  font-size: 1.9rem;
+  font-size: 30px;
+  letter-spacing: 1px;
   font-weight: 300;
   word-spacing: 0em;
 }
@@ -19,6 +31,168 @@
 }
 
 .about-paragraph {
-  width: 100%;
-  margin: auto;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  max-width: 650px;
+  margin: 30px auto;
+}
+
+.paragraph-link {
+  color: blue;
+  font-weight: 400;
+}
+
+.tldr-container {
+  display: block;
+  max-width: 650px;
+  background: #f0f0f0;
+  color: #555;
+  margin: 0px auto;
+  padding: 20px;
+  height: 200px;
+}
+
+.about-tldr {
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.icon {
+  font-size: 45px;
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+}
+
+.icon-text {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+}
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+}
+/* For mobile phones: */
+@media only screen and (max-width: 767px) {
+  .about-container {
+    position: inherit;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5.5rem;
+  }
+  .scroll-about-container {
+    position: inherit;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5.5rem;
+    opacity: 1;
+    transition: 1s;
+  }
+  .about-img {
+    width: 150px;
+    border-radius: 50%;
+    padding-top: 0em;
+  }
+  .tldr-container {
+    display: block;
+    width: 80%;
+    max-width: 650px;
+    background: #f0f0f0;
+    color: #555;
+    margin: 0px auto;
+    padding: 10px;
+    height: 170px;
+  }
+  .about-tldr {
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #111;
+    width: 100%;
+  }
+  .icon {
+    font-size: 40px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+    margin-top: 5px;
+  }
+  .icon-text {
+    font-size: 11px;
+    font-weight: 300;
+    font-family: "Roboto Slab", serif;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    /* color: blue; */
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0 0 30px;
+  }
+  .about-container {
+    position: inherit;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5.5rem;
+  }
+  .about-img {
+    width: 150px;
+    border-radius: 50%;
+    padding-top: 0em;
+  }
+  .tldr-container {
+    display: block;
+    width: 100%;
+
+    max-width: 650px;
+    background: #f0f0f0;
+    color: #555;
+    margin: 0px auto;
+    padding: 10px;
+    height: 170px;
+  }
+  .about-tldr {
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #111;
+    width: 100%;
+  }
+  .icon {
+    font-size: 30px;
+    width: 33.333333333%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+    margin-top: 5px;
+  }
+  .icon-text {
+    font-size: 11px;
+    font-weight: 300;
+    font-family: "Roboto Slab", serif;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+  }
 }
