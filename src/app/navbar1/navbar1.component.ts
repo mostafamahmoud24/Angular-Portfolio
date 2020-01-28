@@ -49,8 +49,19 @@ export class Navbar1Component implements OnInit {
       let titleelemet = document.getElementById("navbar-title");
       let linkselement = document.getElementById("navbar-links");
       element.classList.remove("scroll-navbar");
+      element.classList.add("sticky-navbar");
       titleelemet.classList.remove("scroll-navbar-title");
+      titleelemet.classList.add("sticky-navbar-title");
       linkselement.classList.remove("scroll-navbar-links");
+      linkselement.classList.add("sticky-navbar-links");
+    }
+
+    if (window.pageYOffset > 740) {
+      let element = document.getElementById("navbar-about");
+      element.classList.add("target");
+    } else {
+      let element = document.getElementById("navbar-about");
+      element.classList.remove("target");
     }
   }
 

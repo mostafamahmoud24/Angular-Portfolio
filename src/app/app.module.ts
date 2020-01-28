@@ -8,13 +8,15 @@ import { NavbarComponent } from "./navbar/navbar.component";
 import { NgxPageScrollModule } from "ngx-page-scroll";
 import { AboutComponent } from "./about/about.component";
 import { Navbar1Component } from "./navbar1/navbar1.component";
+import { HeroComponent } from "./hero/hero.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     AboutComponent,
-    Navbar1Component
+    Navbar1Component,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
