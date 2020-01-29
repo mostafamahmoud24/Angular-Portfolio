@@ -1,6 +1,14 @@
 <nav class="navbar" id="navbar">
   <div class="navbar-title" id="navbar-title">
-    <p>Mostafa Mahmoud</p>
+    <p>
+      <a
+        href="#home"
+        class="title-link"
+        pageScroll
+        [pageScrollEasing]="myEasing"
+        >Mostafa Mahmoud</a
+      >
+    </p>
     <div class="menu-icon-container" (click)="myFunction()">
       <div class="menu-icon"></div>
       <div class="menu-icon"></div>
@@ -17,9 +25,41 @@
       (click)="myFunction()"
       ><p>ABOUT</p></a
     >
-    <a href="#passion" class="navbar-link"><p>PASSION</p></a>
-    <a href="#experience" class="navbar-link"><p>EXPERIENCE</p></a>
-    <a href="#work" class="navbar-link"><p>WORK</p></a>
-    <a href="#contact" class="navbar-link"><p>CONTACT</p></a>
+    <a
+      href="#passion"
+      class="navbar-link"
+      id="navbar-passion"
+      pageScroll
+      [pageScrollEasing]="myEasing"
+      (click)="myFunction()"
+      ><p>PASSION</p></a
+    >
+    <a
+      href="#experience"
+      class="navbar-link"
+      id="navbar-experience"
+      pageScroll
+      [pageScrollEasing]="myEasing"
+      (click)="myFunction()"
+      ><p>EXPERIENCE</p></a
+    >
+    <a
+      href="#work"
+      class="navbar-link"
+      id="navabr-work"
+      pageScroll
+      [pageScrollEasing]="myEasing"
+      (click)="myFunction()"
+      ><p>WORK</p></a
+    >
+    <a
+      href="#contact"
+      class="navbar-link"
+      id="navbar-contact"
+      pageScroll
+      [pageScrollEasing]="myEasing"
+      (click)="myFunction()"
+      ><p>CONTACT</p></a
+    >
   </div>
 </nav>

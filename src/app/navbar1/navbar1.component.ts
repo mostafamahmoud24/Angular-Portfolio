@@ -56,12 +56,33 @@ export class Navbar1Component implements OnInit {
       linkselement.classList.add("sticky-navbar-links");
     }
 
-    if (window.pageYOffset > 740) {
-      let element = document.getElementById("navbar-about");
-      element.classList.add("target");
+    if (window.pageYOffset > 695 && window.pageYOffset < 1600) {
+      let about = document.getElementById("navbar-about");
+      let passion = document.getElementById("navbar-passion");
+      let design = document.getElementById("design");
+      let development = document.getElementById("design");
+      let knowledge = document.getElementById("design");
+      passion.classList.remove("target");
+      about.classList.add("target");
+    } else if (window.pageYOffset > 1600) {
+      let passion = document.getElementById("navbar-passion");
+      let about = document.getElementById("navbar-about");
+      let design = document.getElementById("design");
+      let development = document.getElementById("development");
+      let knowledge = document.getElementById("knowledge");
+      design.classList.remove("passion-component");
+      design.classList.add("design-component");
+      development.classList.remove("development-component");
+      development.classList.add("development-component");
+      knowledge.classList.remove("knowledge-component");
+      knowledge.classList.add("knowledge-component");
+      about.classList.remove("target");
+      passion.classList.add("target");
     } else {
-      let element = document.getElementById("navbar-about");
-      element.classList.remove("target");
+      let about = document.getElementById("navbar-about");
+      let passion = document.getElementById("navbar-passion");
+      about.classList.remove("target");
+      passion.classList.remove("target");
     }
   }
 

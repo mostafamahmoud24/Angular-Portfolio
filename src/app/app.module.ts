@@ -9,6 +9,7 @@ import { NgxPageScrollModule } from "ngx-page-scroll";
 import { AboutComponent } from "./about/about.component";
 import { Navbar1Component } from "./navbar1/navbar1.component";
 import { HeroComponent } from "./hero/hero.component";
+import { PassionComponent } from './passion/passion.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeroComponent } from "./hero/hero.component";
     NavbarComponent,
     AboutComponent,
     Navbar1Component,
-    HeroComponent
+    HeroComponent,
+    PassionComponent
   ],
   imports: [
     BrowserModule,
