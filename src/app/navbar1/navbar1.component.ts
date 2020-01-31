@@ -59,14 +59,21 @@ export class Navbar1Component implements OnInit {
     if (window.pageYOffset > 695 && window.pageYOffset < 1600) {
       let about = document.getElementById("navbar-about");
       let passion = document.getElementById("navbar-passion");
-      let design = document.getElementById("design");
-      let development = document.getElementById("design");
-      let knowledge = document.getElementById("design");
       passion.classList.remove("target");
       about.classList.add("target");
     } else if (window.pageYOffset > 1600) {
       let passion = document.getElementById("navbar-passion");
       let about = document.getElementById("navbar-about");
+      about.classList.remove("target");
+      passion.classList.add("target");
+    } else {
+      let about = document.getElementById("navbar-about");
+      let passion = document.getElementById("navbar-passion");
+      about.classList.remove("target");
+      passion.classList.remove("target");
+    }
+
+    if (window.pageYOffset > 1200) {
       let design = document.getElementById("design");
       let development = document.getElementById("development");
       let knowledge = document.getElementById("knowledge");
@@ -76,13 +83,6 @@ export class Navbar1Component implements OnInit {
       development.classList.add("development-component");
       knowledge.classList.remove("knowledge-component");
       knowledge.classList.add("knowledge-component");
-      about.classList.remove("target");
-      passion.classList.add("target");
-    } else {
-      let about = document.getElementById("navbar-about");
-      let passion = document.getElementById("navbar-passion");
-      about.classList.remove("target");
-      passion.classList.remove("target");
     }
   }
 

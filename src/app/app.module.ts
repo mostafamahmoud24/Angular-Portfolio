@@ -10,6 +10,7 @@ import { AboutComponent } from "./about/about.component";
 import { Navbar1Component } from "./navbar1/navbar1.component";
 import { HeroComponent } from "./hero/hero.component";
 import { PassionComponent } from './passion/passion.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PassionComponent } from './passion/passion.component';
     AboutComponent,
     Navbar1Component,
     HeroComponent,
-    PassionComponent
+    PassionComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,204 @@
+.experience-container {
+  padding-top: 5.5rem;
+}
+
+.experience-title-container {
+  text-align: center;
+}
+.experience-title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  word-spacing: 0em;
+}
+.experience-text {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.7;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  max-width: 650px;
+  margin: 30px auto;
+  padding-bottom: 5px;
+}
+.technologies-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.container {
+  /* background-color: blue; */
+  min-width: 100%;
+  padding-left: 13%;
+  position: inherit;
+}
+
+.col-12 {
+  /* background-color: blue; */
+  text-align: left;
+  margin: auto;
+  margin-top: 4em;
+  position: inherit;
+}
+
+.row {
+  margin-left: 3%;
+}
+
+.html {
+  width: 4em;
+  margin-right: 7%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+:hover.html {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.css {
+  width: 4em;
+  margin-right: 7%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+:hover.css {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.javascript {
+  width: 4.7em;
+  margin-right: 7%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+:hover.javascript {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.python {
+  width: 5em;
+  margin-right: 7%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+:hover.python {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.react {
+  width: 5.2em;
+  margin-right: 7%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+:hover.react {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.angular {
+  width: 4.7em;
+  margin-right: 7%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+:hover.angular {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+.laravel {
+  width: 4.7em;
+  margin-right: 4.5%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+:hover.laravel {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.php {
+  width: 5.5em;
+  margin-right: 6%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+:hover.php {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.bootstrap {
+  width: 4.7em;
+  margin-right: 7%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+:hover.bootstrap {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.mysql {
+  width: 6em;
+  margin-right: 7%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+:hover.mysql {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.git {
+  width: 4.7em;
+  margin-right: 7%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+:hover.git {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.github {
+  width: 4.7em;
+  margin-right: 7%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+:hover.github {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+.fab {
+  width: 10em;
+  margin-top: -3em;
+  text-align: center;
+  /* background-color: green; */
+}
+
+.eme {
+  width: 8em;
+  margin-top: -9em;
+  /* border: 1px solid black; */
+}
