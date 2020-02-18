@@ -61,15 +61,22 @@ export class Navbar1Component implements OnInit {
       let passion = document.getElementById("navbar-passion");
       passion.classList.remove("target");
       about.classList.add("target");
-    } else if (window.pageYOffset > 1600) {
+    } else if (window.pageYOffset > 1600 && window.pageYOffset < 2410) {
       let passion = document.getElementById("navbar-passion");
       let about = document.getElementById("navbar-about");
       about.classList.remove("target");
       passion.classList.add("target");
+    } else if (window.pageYOffset > 2410) {
+      let passion = document.getElementById("navbar-passion");
+      let experience = document.getElementById("navbar-experience");
+      passion.classList.remove("target");
+      experience.classList.add("target");
     } else {
       let about = document.getElementById("navbar-about");
       let passion = document.getElementById("navbar-passion");
+      let experience = document.getElementById("navbar-experience");
       about.classList.remove("target");
+      experience.classList.remove("target");
       passion.classList.remove("target");
     }
 

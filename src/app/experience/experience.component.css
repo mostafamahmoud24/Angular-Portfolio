@@ -25,30 +25,16 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 1.5;
+  /* margin: auto; */
 }
 
-.container {
-  /* background-color: blue; */
-  min-width: 100%;
-  padding-left: 13%;
-  position: inherit;
-}
-
-.col-12 {
-  /* background-color: blue; */
-  text-align: left;
-  margin: auto;
-  margin-top: 4em;
-  position: inherit;
-}
-
-.row {
-  margin-left: 3%;
+.container-fluid {
+  width: 75%;
 }
 
 .html {
   width: 4em;
-  margin-right: 7%;
+  /* margin-right: 7%; */
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -61,7 +47,7 @@
 
 .css {
   width: 4em;
-  margin-right: 7%;
+  /* margin-right: 7%; */
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -73,7 +59,7 @@
 
 .javascript {
   width: 4.7em;
-  margin-right: 7%;
+  /* margin-right: 7%; */
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -120,7 +106,6 @@
 }
 .laravel {
   width: 4.7em;
-  margin-right: 4.5%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -133,7 +118,7 @@
 
 .php {
   width: 5.5em;
-  margin-right: 6%;
+  /* margin-right: 100%; */
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -199,6 +184,333 @@
 
 .eme {
   width: 8em;
-  margin-top: -9em;
+  margin-top: -7em;
   /* border: 1px solid black; */
+}
+
+@media only screen and (max-width: 1350px) {
+  .html {
+    width: calc(3.2em * 0.9);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .css {
+    width: calc(3.2em * 0.9);
+    margin-left: 25%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .javascript {
+    width: calc(3.9em * 0.9);
+    margin-left: 25%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .python {
+    width: calc(4.2em * 0.9);
+    margin-left: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .react {
+    width: calc(4.2em * 0.9);
+    margin-left: 50%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .angular {
+    width: calc(3.7em * 0.9);
+    margin-left: 80%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .laravel {
+    width: calc(3.9em * 0.9);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .php {
+    width: calc(4em * 0.9);
+    /* margin-right: 100%; */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .bootstrap {
+    width: calc(3.8em * 0.9);
+    margin-left: 25%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .mysql {
+    width: calc(4.8em * 0.9);
+    margin-left: 40%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .git {
+    width: calc(3.7em * 0.9);
+    margin-left: 80%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .github {
+    width: calc(3.7em * 0.9);
+    margin-left: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .fab {
+    width: 10em;
+    margin-top: -3em;
+
+    /* background-color: green; */
+  }
+
+  .eme {
+    width: 8em;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .container-fluid {
+    width: 90%;
+  }
+
+  .html {
+    width: calc(3.2em * 0.9);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .css {
+    width: calc(3.2em * 0.9);
+    margin-left: 25%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .javascript {
+    width: calc(3.9em * 0.9);
+    margin-left: 25%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .python {
+    width: calc(4.2em * 0.9);
+    margin-left: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .react {
+    width: calc(4.2em * 0.9);
+    margin-left: 50%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .angular {
+    width: calc(3.7em * 0.9);
+    margin-left: 80%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .laravel {
+    width: calc(3.9em * 0.9);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .php {
+    width: calc(4em * 0.9);
+    /* margin-right: 100%; */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .bootstrap {
+    width: calc(3.8em * 0.9);
+    margin-left: 25%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .mysql {
+    width: calc(4.8em * 0.9);
+    margin-left: 40%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .git {
+    width: calc(3.7em * 0.9);
+    margin-left: 80%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .github {
+    width: calc(3.7em * 0.9);
+    margin-left: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .fab {
+    width: 10em;
+    margin-top: -3em;
+    text-align: center;
+    /* background-color: green; */
+  }
+
+  .eme {
+    width: 8em;
+    margin-top: -7em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .work-title {
+    margin-top: 50px;
+  }
+  .tech-title {
+    text-align: center;
+  }
+}
+
+/*mobile*/
+@media only screen and (max-width: 576px) {
+  .container-fluid {
+    width: 100%;
+  }
+
+  .tech-title {
+    text-align: center;
+  }
+
+  .work-title {
+    margin-top: 50px;
+  }
+
+  .experience-text {
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  .html {
+    width: calc(3.2em * 1);
+    margin-left: 50%;
+    margin-bottom: 70%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .css {
+    width: calc(3.2em * 1);
+    margin-left: 80%;
+    margin-bottom: 70%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .javascript {
+    width: calc(3.9em * 1);
+    margin-left: 100%;
+    margin-bottom: 70%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .python {
+    width: calc(4.2em * 1);
+    margin-left: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .react {
+    width: calc(4.2em * 1);
+    margin-left: 40%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .angular {
+    width: calc(3.7em * 1);
+    margin-left: 80%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .laravel {
+    margin-left: 50%;
+    margin-bottom: 70%;
+    width: calc(3.9em * 1);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .php {
+    width: calc(4em * 1);
+    /* margin-right: 100%; */
+    margin-left: 80%;
+    margin-bottom: 70%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .bootstrap {
+    width: calc(3.8em * 1);
+    margin-left: 100%;
+    margin-bottom: 70%;
+    text-align: right;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .mysql {
+    width: calc(4.8em * 1);
+    margin-left: 45%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .git {
+    width: calc(3.7em * 1);
+    margin-left: 80%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .github {
+    width: calc(3.7em * 1);
+    margin-left: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .fab {
+    width: 10em;
+    margin-top: -3em;
+    text-align: center;
+    /* background-color: green; */
+  }
+
+  .eme {
+    width: 8em;
+    margin-top: -7em;
+    /* border: 1px solid black; */
+  }
 }
