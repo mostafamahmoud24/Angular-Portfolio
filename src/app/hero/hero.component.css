@@ -1,7 +1,7 @@
 .background {
   /* The image used */
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../../assets/images/landscape.jpg");
+    url("../../assets/images/mount.jpg");
 
   /* Set a specific height */
   height: 750px;

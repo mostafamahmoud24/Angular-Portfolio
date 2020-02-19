@@ -1,3 +1,80 @@
+.resume {
+  /* The image used */
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../../assets/images/work.jpg");
+
+  /* Set a specific height */
+  height: 270px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex; */
+}
+
+.resume-title {
+  color: white;
+  margin: auto;
+  font-weight: 200;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  word-spacing: 5px;
+}
+
+.resume-button {
+  color: white;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 300;
+  border: 1px solid white;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  animation-name: reverse-button;
+  animation-duration: 0.3s;
+}
+
+@keyframes resume-button {
+  from {
+    padding: 10px 20px 10px 20px;
+  }
+  to {
+    padding: 10px 30px 10px 30px;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.199),
+      rgba(255, 255, 255, 0.199)
+    );
+  }
+}
+@keyframes reverse-button {
+  from {
+    padding: 10px 30px 10px 30px;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.199),
+      rgba(255, 255, 255, 0.199)
+    );
+  }
+  to {
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  }
+}
+
+:hover.resume-button {
+  animation-name: resume-button;
+  animation-duration: 0.3s;
+  padding: 10px 30px 10px 30px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.199),
+    rgba(255, 255, 255, 0.199)
+  );
+}
+
 .experience-container {
   padding-top: 5.5rem;
 }
