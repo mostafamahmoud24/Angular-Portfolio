@@ -37,6 +37,7 @@ export class Navbar1Component implements OnInit {
 
   @HostListener("window:scroll", ["$event"])
   onWindowScroll(e) {
+    //Navbar animation
     if (window.pageYOffset > 50) {
       let element = document.getElementById("navbar");
       let titleelemet = document.getElementById("navbar-title");
@@ -56,13 +57,16 @@ export class Navbar1Component implements OnInit {
       linkselement.classList.add("sticky-navbar-links");
     }
 
+    //active page highlight in navbar navigation links
     if (window.pageYOffset > 695 && window.pageYOffset < 1600) {
       let about = document.getElementById("navbar-about");
       let passion = document.getElementById("navbar-passion");
       let experience = document.getElementById("navbar-experience");
+      let work = document.getElementById("navbar-work");
       passion.classList.remove("target");
       about.classList.add("target");
       experience.classList.remove("target");
+      work.classList.remove("target");
     } else if (window.pageYOffset > 1600 && window.pageYOffset < 2350) {
       let passion = document.getElementById("navbar-passion");
       let experience = document.getElementById("navbar-experience");
@@ -70,11 +74,24 @@ export class Navbar1Component implements OnInit {
       about.classList.remove("target");
       passion.classList.add("target");
       experience.classList.remove("target");
-    } else if (window.pageYOffset > 2350) {
+    } else if (window.pageYOffset > 2350 && window.pageYOffset < 3250) {
+      let about = document.getElementById("navbar-about");
       let passion = document.getElementById("navbar-passion");
       let experience = document.getElementById("navbar-experience");
+      let work = document.getElementById("navabr-work");
+      about.classList.remove("target");
       passion.classList.remove("target");
+      work.classList.remove("target");
       experience.classList.add("target");
+    } else if (window.pageYOffset > 3250) {
+      let about = document.getElementById("navbar-about");
+      let passion = document.getElementById("navbar-passion");
+      let experience = document.getElementById("navbar-experience");
+      let work = document.getElementById("navabr-work");
+      about.classList.remove("target");
+      passion.classList.remove("target");
+      experience.classList.remove("target");
+      work.classList.add("target");
     } else {
       let about = document.getElementById("navbar-about");
       let passion = document.getElementById("navbar-passion");
@@ -84,6 +101,7 @@ export class Navbar1Component implements OnInit {
       passion.classList.remove("target");
     }
 
+    //passion component spinning icon animation
     if (window.pageYOffset > 1200) {
       let design = document.getElementById("design");
       let development = document.getElementById("development");
@@ -97,6 +115,7 @@ export class Navbar1Component implements OnInit {
     }
   }
 
+  //smooth scrolling
   public myEasing: EasingLogic = (t: 0.25, b: 0.1, c: 0.25, d: 1): number => {
     // easeInOutExpo easing
     // if (t === 0) {
