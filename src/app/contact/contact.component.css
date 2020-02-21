@@ -1,0 +1,64 @@
+.contact-container {
+  background: #f0f0f0;
+  margin-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.paper-plane {
+  margin: auto;
+  text-align: center;
+}
+
+.fa-paper-plane {
+  text-align: center;
+  font-size: 3.5em;
+  color: black;
+}
+
+.text-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-title {
+  font-size: 30px;
+  margin: 0 0 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.contact-text {
+  margin-bottom: 0px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-button {
+  border: 1px solid black;
+  border-radius: 2px;
+  font-size: 20px;
+  padding: 5px 15px 5px 15px;
+  transition: all 0.25s ease-in-out;
+}
+
+:hover.contact-button {
+  background: #01019c;
+  border: 1px solid #01019c;
+  color: white;
+  transition: all 0.25s ease-in-out;
+}
+
+@media only screen and (max-width: 576px) {
+  .contact-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    /* color: blue; */
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0 0 30px;
+  }
+}

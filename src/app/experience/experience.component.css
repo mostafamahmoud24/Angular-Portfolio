@@ -481,6 +481,14 @@
     margin-top: 50px;
   }
 
+  .experience-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    /* color: blue; */
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0 0 30px;
+  }
   .experience-text {
     text-align: center;
     margin-left: 5%;

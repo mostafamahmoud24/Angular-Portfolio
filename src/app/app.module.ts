@@ -13,6 +13,8 @@ import { PassionComponent } from "./passion/passion.component";
 import { ExperienceComponent } from "./experience/experience.component";
 import { WorkComponent } from "./work/work.component";
 import { MDBBootstrapModule } from "angular-bootstrap-md";
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { MDBBootstrapModule } from "angular-bootstrap-md";
     HeroComponent,
     PassionComponent,
     ExperienceComponent,
-    WorkComponent
+    WorkComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

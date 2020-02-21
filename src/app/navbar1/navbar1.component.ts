@@ -83,19 +83,40 @@ export class Navbar1Component implements OnInit {
       passion.classList.remove("target");
       work.classList.remove("target");
       experience.classList.add("target");
-    } else if (window.pageYOffset > 3250) {
+    } else if (
+      window.pageYOffset >= 3250 &&
+      window.pageYOffset < document.getElementById("contact").offsetTop - 200
+    ) {
       let about = document.getElementById("navbar-about");
       let passion = document.getElementById("navbar-passion");
       let experience = document.getElementById("navbar-experience");
       let work = document.getElementById("navabr-work");
+      let contact = document.getElementById("navbar-contact");
+      about.classList.remove("target");
+      passion.classList.remove("target");
+      contact.classList.remove("target");
+      experience.classList.remove("target");
+      work.classList.add("target");
+    } else if (
+      window.pageYOffset >
+      document.getElementById("contact").offsetTop - 200
+    ) {
+      let about = document.getElementById("navbar-about");
+      let passion = document.getElementById("navbar-passion");
+      let experience = document.getElementById("navbar-experience");
+      let work = document.getElementById("navabr-work");
+      let contact = document.getElementById("navbar-contact");
       about.classList.remove("target");
       passion.classList.remove("target");
       experience.classList.remove("target");
-      work.classList.add("target");
+      work.classList.remove("target");
+      contact.classList.add("target");
     } else {
       let about = document.getElementById("navbar-about");
       let passion = document.getElementById("navbar-passion");
       let experience = document.getElementById("navbar-experience");
+      let contact = document.getElementById("navbar-contact");
+      about.classList.remove("target");
       about.classList.remove("target");
       experience.classList.remove("target");
       passion.classList.remove("target");
