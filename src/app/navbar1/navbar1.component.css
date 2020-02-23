@@ -233,6 +233,7 @@
   .hidden {
     display: none;
   }
+
   @keyframes navbar {
     from {
     }

@@ -58,7 +58,10 @@ export class Navbar1Component implements OnInit {
     }
 
     //active page highlight in navbar navigation links
-    if (window.pageYOffset > 695 && window.pageYOffset < 1600) {
+    if (
+      window.pageYOffset >= document.getElementById("about").offsetTop &&
+      window.pageYOffset < document.getElementById("passion").offsetTop
+    ) {
       let about = document.getElementById("navbar-about");
       let passion = document.getElementById("navbar-passion");
       let experience = document.getElementById("navbar-experience");
@@ -67,14 +70,20 @@ export class Navbar1Component implements OnInit {
       about.classList.add("target");
       experience.classList.remove("target");
       work.classList.remove("target");
-    } else if (window.pageYOffset > 1600 && window.pageYOffset < 2350) {
+    } else if (
+      window.pageYOffset >= document.getElementById("passion").offsetTop &&
+      window.pageYOffset < document.getElementById("experience").offsetTop
+    ) {
       let passion = document.getElementById("navbar-passion");
       let experience = document.getElementById("navbar-experience");
       let about = document.getElementById("navbar-about");
       about.classList.remove("target");
       passion.classList.add("target");
       experience.classList.remove("target");
-    } else if (window.pageYOffset > 2350 && window.pageYOffset < 3250) {
+    } else if (
+      window.pageYOffset >= document.getElementById("experience").offsetTop &&
+      window.pageYOffset < document.getElementById("work").offsetTop
+    ) {
       let about = document.getElementById("navbar-about");
       let passion = document.getElementById("navbar-passion");
       let experience = document.getElementById("navbar-experience");
