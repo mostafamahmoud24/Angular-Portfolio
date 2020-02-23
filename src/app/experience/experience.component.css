@@ -494,8 +494,6 @@
   .experience-text {
     text-align: center;
     /* margin-left: 5%; */
-    word-break: break-all;
-    word-wrap: break-word;
     width: 90%;
   }
 
