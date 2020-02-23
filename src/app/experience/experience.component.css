@@ -494,69 +494,69 @@
     /* margin-left: 5%; */
     word-break: break-all;
     word-wrap: break-word;
-    width: 100vw;
+    width: 90%;
   }
 
   .html {
     width: calc(3.2em * 1);
     margin-left: 50%;
     margin-bottom: 70%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .css {
     width: calc(3.2em * 1);
     margin-left: 80%;
     margin-bottom: 70%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .javascript {
     width: calc(3.9em * 1);
     margin-left: 100%;
     margin-bottom: 70%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .python {
     width: calc(4.2em * 1);
     margin-left: 100%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .react {
     width: calc(4.2em * 1);
     margin-left: 40%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .angular {
     width: calc(3.7em * 1);
-    margin-left: 80%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    margin-left: 75%;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .laravel {
     margin-left: 50%;
     margin-bottom: 70%;
     width: calc(3.9em * 1);
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .php {
     width: calc(4em * 1);
     /* margin-right: 100%; */
-    margin-left: 80%;
+    margin-left: 75%;
     margin-bottom: 70%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .bootstrap {
@@ -564,29 +564,29 @@
     margin-left: 100%;
     margin-bottom: 70%;
     text-align: right;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .mysql {
     width: calc(4.8em * 1);
     margin-left: 45%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .git {
     width: calc(3.7em * 1);
     margin-left: 80%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .github {
     width: calc(3.7em * 1);
     margin-left: 100%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .fab {

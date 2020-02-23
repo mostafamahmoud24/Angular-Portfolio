@@ -61,4 +61,10 @@
     font-weight: 600;
     margin: 0 0 30px;
   }
+
+  .contact-text {
+    margin-bottom: 0px;
+    width: 90%;
+    margin: auto;
+  }
 }
