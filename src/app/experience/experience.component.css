@@ -7,7 +7,7 @@
   height: 270px;
   position: relative;
   top: 0;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   margin-top: 100px;
   /* Create the parallax scrolling effect */
@@ -491,7 +491,10 @@
   }
   .experience-text {
     text-align: center;
-    margin-left: 5%;
+    /* margin-left: 5%; */
+    word-break: break-all;
+    word-wrap: break-word;
+    width: 100vw;
   }
 
   .html {
@@ -589,6 +592,7 @@
   .fab {
     width: 10em;
     margin-top: -3em;
+    margin-left: 35px;
     text-align: center;
     /* background-color: green; */
   }

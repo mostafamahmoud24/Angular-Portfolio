@@ -181,10 +181,12 @@
     background-color: black;
     display: block;
     height: auto;
+    animation-name: none;
   }
   .navbar {
     background-color: black;
     display: block;
+    animation-name: none;
   }
 
   .navbar-title {
