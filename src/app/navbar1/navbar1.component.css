@@ -189,7 +189,15 @@
     animation-name: none;
   }
 
-  .navbar-sticky {
+  .sticky-navbar {
+    animation-name: none;
+  }
+
+  .sticky-navbar-title {
+    animation-name: none;
+  }
+
+  .sticky-navbar-links {
     animation-name: none;
   }
 
