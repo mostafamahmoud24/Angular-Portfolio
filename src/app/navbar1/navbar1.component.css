@@ -189,6 +189,10 @@
     animation-name: none;
   }
 
+  .navbar-sticky {
+    animation-name: none;
+  }
+
   .navbar-title {
     /* background-color: red; */
     display: flex;
@@ -199,6 +203,7 @@
     /* background-color: blue; */
     margin-left: 0%;
     margin-top: 0.4em;
+    animation-name: none;
   }
 
   .navbar-linkss {
@@ -209,6 +214,7 @@
     padding-top: 1.8em;
     padding-bottom: 0.6em;
     padding-right: 1.5rem;
+    animation-name: none;
   }
 
   .navbar-link {
@@ -218,6 +224,7 @@
     padding-left: 2.4em;
     text-decoration: none;
     margin-bottom: -0.6em;
+    animation-name: none;
   }
   .menu-icon {
     width: 35px;
